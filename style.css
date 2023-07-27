@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+
+.h1, h2, h3, h4, h5, h6, ul, li, p{
+    margin: 0;
+    padding: 0;
+}
+.clearFix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+/* headerSection */
+.headerSection {
+    background: #22c3a3;
+    padding: 20px 0;
+}
+.logoMenu{}
+.logo {
+    width: 20%;
+    float: left;
+}
+.logo  a {
+    color: white;
+    font-size: 20px;
+    
+}
+.menu {
+    float: right;
+    width: 80%;
+    text-align: right;
+    
+}
+.menu ul{}
+.menu ul li {
+    display: inline-block;
+}
+.menu ul li a {
+    color: white;
+    text-transform: uppercase;
+    padding: 20px 22px;
+    transition: .5s;
+}
+.menu ul li a:hover{
+    background-color: #20816e;
+}
+/* heroSection  */
+.heroSection {
+    background-image: url(https://i.ibb.co/PhX1DhL/header-bg01.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px 0;
+}
+.hero{}
+.hero h1 {
+    color: white;
+    font-size: 36px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+.hero h4 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+.hero a {
+    color: white;
+    border: 1px solid white;
+    display: inline-block;
+    padding: 12px 11px;
+    margin-top: 22px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+/* serviceSection */
+.serviceSection {
+    padding: 68px 0;
+}
+.title{}
+.title h1 {
+    font-size: 32px;
+   
+}
+.title p {
+    margin: 14px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+.serviceGrid {
+    margin: 200px -6px;
+}
+.serviceSingle{
+    width: 25%;
+    float: left;
+}
+.serviceSingle h1 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 17px;
+}
+.serviceSingle span {
+    color: #22c3a3;
+    font-size: 36px;
+    
+}
+/* aboutSection  */
+.aboutSection {
+    padding: 100px 0;
+    border-top: 1px solid #0dbf9b;
+}
+.aboutGrid {
+    padding: 28px 0px;
+}
+.aboutImg{
+    width: 43%;
+    float: left;
+    margin-right: 2%;
+}
+.aboutImg img {
+    width: 113%;
+
+    margin: 0px -37px;
+}
+.aboutText {
+    float: right;
+    width: 61%;
+    margin-right: -13%;
+}
+.singleAboutText{
+    text-align: left;
+    margin-bottom: 30px;
+}
+/* contactSection */
+.contactSection{
+    padding: 100px 0;
+    background: #f6f6f6;
+}
+.contactGrid{}
+.singleContact{
+    float: left;
+    width: 29%;
+    margin: 0 2%;
+}
+.singleContact {
+    float: left;
+    width: 29%;
+    margin: 0 2%;
+    padding: 51px 0;
+}
+.singleContact span{
+    color: #0dbf9b;
+}
+.singleContact ul li{
+    list-style: none;
+}
+.singleContact ul {
+    margin: 10px 0;
+}
+/* footer */
+.footerSection {
+    background: #0dbf9b;
+    padding: 17px 0;
+}
+.footer{}
+.footer ul {
+    text-align: center;
+}
+.footer ul li {
+    display: inline-block;
+}
+.footer ul li a {
+    color: white;
+    margin: 0 10px;
+}
+.dada {
+    background: #222222;
+    color: white;
+    text-align: center;
+    padding: 16px 0;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
